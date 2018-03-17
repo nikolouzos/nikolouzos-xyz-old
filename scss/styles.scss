@@ -1,0 +1,43 @@
+/*    Author: Nikolaos Rafail Nikolouzos
+        Author URI: https://nnikolouzos.xyz
+        Description: This is the main CSS for Nikoalos Rafail Nikolouzos' website: "nnikolouzos.xyz". It contains the styling as well as the layout of the main website.
+        Version: 1.0
+        Date Created: 02/18/2018    */
+
+//    Partials
+
+@import "_normalize.scss";
+@import "_mixins.scss";
+
+// General Rules
+body, html {
+    font-size: 1vw;
+    font-family: "Open Sans";
+}
+
+h1, h2, h3, h4, h5, h6, thead {
+    font-family: "Josefin Slab";
+}
+
+// Landing styling
+
+#landing-wall {
+    width: 100%;
+}
+
+#main-nav {
+    text-align: center;
+
+
+h1, ul {
+    margin: 0;
+    padding: 0;
+}
+    h1 {
+        margin-bottom: 1rem;
+    }
+
+    li {
+        @include blueblock;
+    }
+}
