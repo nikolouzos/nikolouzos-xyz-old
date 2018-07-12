@@ -36,5 +36,13 @@
 ehthumbs.db
 Thumbs.db
 
-#Project Specific Files#
+# Project Specific Files #
 *.psd
+
+# Text files and config files #
+.txt
+.config
+
+# Mockups #
+/mockup-pics
+

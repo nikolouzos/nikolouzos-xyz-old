@@ -1,0 +1,9 @@
+https://caniuse.com/ - Browser Compatibility
+https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes - MDN attribute reference
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference - MDN CSS reference
+http://flexboxfroggy.com/ - Helps you learn flexbox
+https://necolas.github.io/normalize.css/ - Normalize CSS
+https://jigsaw.w3.org/css-validator/ - W3C CSS validator
+https://css-tricks.com/snippets/css/complete-guide-grid/ - CSS Grid Resources
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/ - CSS Flexbox Resources
+https://placeholder.com/ - for image placeholders, specify width and height (widthxheight) after the link
