@@ -21,14 +21,14 @@ $yellow: #EEE048;
 // General Rules
 body,
 html {
-  position: absolute;
-  display: table;
-  width: 100%;
-  height: 100%;
+    position: absolute;
+    display: table;
+    width: 100%;
+    height: 100%;
+    background-color: $text-primary;
 
-  font-size: 1rem;
-  font-family: $font-text;
-  color: $text-primary;
+    font-size: 1rem;
+    font-family: $font-text;
 }
 
 h1,
@@ -52,11 +52,10 @@ a {
   vertical-align: middle;
 
   font-weight: 300;
-  background-color: $text-primary;
   color: white;
 
   #text {
-    width: 80%;
+    width: auto;
     margin: 0 auto;
     padding: 3rem;
     text-align: center;
