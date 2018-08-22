@@ -1,0 +1,16 @@
+@mixin nav-buttons-normal {
+  font-family: $font-titles;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: white;
+  background-color: $nav-btn-bg-normal;
+  padding: 0.5rem 0.8rem;
+}
+
+
+@mixin button-yellow {
+  @include nav-buttons-normal;
+  background-color: $yellow-transparent;
+  color: black;
+  font-weight: bold;
+}

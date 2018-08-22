@@ -1,6 +1,6 @@
 /*
 Author: Nikolaos Rafail Nikolouzos
-Author URI: https://nnikolouzos.xyz
+Author URI: nikolouzos.xyz
 Description: This is the main CSS for Nikoalos Rafail Nikolouzos' website: "nnikolouzos.xyz". It contains the styling as well as the layout of the main website.
 Version: 1.0
 Date Created: 02/18/2018
@@ -41,7 +41,6 @@ h1 {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  -webkit-box-sizing: content-box;
   box-sizing: content-box;
   /* 1 */
   height: 0;
@@ -76,7 +75,6 @@ abbr[title] {
   /* 1 */
   text-decoration: underline;
   /* 2 */
-  -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
   /* 2 */ }
 
@@ -209,7 +207,6 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   /* 1 */
   color: inherit;
@@ -241,7 +238,6 @@ textarea {
  */
 [type="checkbox"],
 [type="radio"] {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   /* 1 */
   padding: 0;
@@ -350,20 +346,22 @@ a {
     display: inline-block; }
     #main-nav li a {
       font-family: "Josefin Slab";
-      font-weight: 700;
-      font-size: 0.85rem;
+      font-weight: 600;
+      font-size: 1.2rem;
       color: white;
       background-color: rgba(0, 0, 0, 0.5);
-      padding: 0.3rem 0.5rem; }
+      padding: 0.5rem 0.8rem; }
+    #main-nav li a:hover {
+      background-color: rgba(0, 0, 0, 0.75); }
 
 #info {
   width: 90%;
-  background-color: #EEE048;
+  background-color: #eee048;
   text-align: right;
   margin: 2% 0 0 auto;
-  -webkit-shape-outside: padding-box;
   shape-outside: padding-box;
-  -webkit-clip-path: polygon(25% 0, 100% 0, 100% 100%, 0% 100%);
   clip-path: polygon(25% 0, 100% 0, 100% 100%, 0% 100%); }
   #info section {
     padding: 1% 2%; }
+
+/*# sourceMappingURL=styles.css.map */
