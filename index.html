@@ -1,20 +1,42 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html lang="en">
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
 
-  <!-- JavaScript -->
-  <script src="js/analytics.js"></script>
-  <script src="js/gtm.js"></script>
-  
-  <!-- CSS -->
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:300,700|Open+Sans:300,700" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
+	<!-- Google Analytics -->
+	<script>
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date(); a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  <title>Nikolaos Rafail Nikolouzos</title>
+		ga('create', 'UA-124342683-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+	<!-- End Google Analytics -->
+	<!-- Google Tag Manager -->
+	<script>
+		(function (w, d, s, l, i) {
+			w[l] = w[l] || []; w[l].push({
+				'gtm.start':
+					new Date().getTime(), event: 'gtm.js'
+			}); var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+					'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-5M7CBWN');
+	</script>
+	<!-- End Google Tag Manager -->
+
+	<!-- CSS -->
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab:300,700|Open+Sans:300,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+
+	<title>Nikolaos Rafail Nikolouzos</title>
 </head>
 
 <body>
@@ -22,10 +44,14 @@
     <div id= "text">
       <h2>Website coming up in a bit. Predicted release date: <span>31/09/2018</span></h2>
 
-      <p>For any inquiries contact me at: <span>nickrnikolouzos@gmail.com</span><br>or at: <span>nick@nikolouzos.xyz</span></p>
+      <p>For any inquiries contact me at: <a href="mailto:nickrnikolouzos@gmail.com">nickrnikolouzos@gmail.com</a><br>or at: <a href="mailto:nick@nikolouzos.xyz">nick@nikolouzos.xyz</a></p>
 
       <h3>Nikolaos Rafail Nikolouzos</h3>
     </div>
+
+	<div id="secondary">
+			<a id="calltoaction" href="mailto:nick@nikolouzos.xyz">CONTACT ME NOW!</a>
+	</div>
   </article>
 </body>
 </html>
