@@ -46,3 +46,9 @@ Thumbs.db
 # Mockups #
 /mockup-pics
 
+# Node applications#
+/node_apps
+
+# PSD Files #
+*.psd
+

@@ -1,0 +1,5 @@
+# Rules
+User-Agent: *
+Allow: /
+
+Sitemap: http://beta.nikolouzos.xyz/sitemap.xml
